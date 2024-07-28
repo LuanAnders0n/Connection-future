@@ -228,6 +228,21 @@ section {
   background: #ffffff;
   width: 430px;
   height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+
+  img {
+    width: 350px;
+  }
+
+  p {
+    width: 350px;
+  }
 }
 
 @media screen and (max-width: 858px) {
