@@ -173,6 +173,63 @@ section {
   margin-right: 15px;
 }
 
+.body3 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    font-size: 150px;
+    position: relative;
+    -webkit-text-stroke: 2px #9c9c9c;
+    color: #fff;
+  }
+  h3 {
+    position: absolute;
+    font-size: 26px;
+    font-weight: 800;
+  }
+}
+.bodytext {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text2 {
+  width: 650px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.body4 {
+  background: #eaeaea;
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.services {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  margin: 30px;
+  background: #ffffff;
+  width: 430px;
+  height: 450px;
+}
+
 @media screen and (max-width: 858px) {
   .body1 {
     display: flex;
