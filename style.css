@@ -428,15 +428,15 @@ section {
     flex-direction: column;
 
     h2 {
-      font-size: 50px;
+      font-size: 60px;
       position: relative;
       -webkit-text-stroke: 2px #9c9c9c;
       color: #fff;
     }
     h3 {
       position: absolute;
-      font-size: 20px;
-      font-weight: 800;
+      font-size: 16px;
+      font-weight: 600;
     }
   }
   .bodytext {
