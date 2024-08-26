@@ -1,0 +1,70 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 300vh;
+
+  overflow: hidden;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  width: 100%;
+  transition: background-color 0.3s, transform 0.5s;
+}
+
+#section1 {
+  background-color: #ff5733;
+  z-index: 1;
+}
+
+#section2 {
+  background-color: #38c76c;
+  z-index: 1;
+}
+
+#section3 {
+  background-color: #2f74bd;
+  z-index: 1;
+}
+
+#scrollIndicator {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transform: translate(50%, 50%);
+  width: 350px;
+  height: 350px;
+  background-color: #ff5733;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  z-index: 4;
+}
+
+.animate-up {
+  animation: slideUp 0.5s forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100vh);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
