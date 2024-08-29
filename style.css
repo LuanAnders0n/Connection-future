@@ -706,7 +706,7 @@ section {
   }
 
   .imgTeamWork {
-    width: 875px;
+    width: 0px;
   }
 
   .texts {
@@ -747,7 +747,7 @@ section {
   }
 
   .imgPuzzle {
-    width: 550px;
+    width: 0px;
   }
 
   .texts1 {
@@ -777,14 +777,14 @@ section {
     flex-direction: column;
 
     h2 {
-      font-size: 150px;
+      font-size: 70px;
       position: relative;
       -webkit-text-stroke: 2px #9c9c9c;
       color: #fff;
     }
     h3 {
       position: absolute;
-      font-size: 26px;
+      font-size: 16px;
       font-weight: 800;
     }
   }
@@ -796,7 +796,7 @@ section {
   }
   .text2 {
     width: 650px;
-    font-size: 24px;
+    font-size: 16px;
     text-align: center;
   }
 
@@ -821,7 +821,7 @@ section {
   .card {
     margin: 30px;
     background: #ffffff;
-    width: 400px;
+    width: 350px;
     height: 500px;
     display: flex;
     align-items: center;
@@ -829,7 +829,6 @@ section {
     flex-direction: column;
     text-align: center;
     border-radius: 30px;
-    box-shadow: 0 2px 7px 0px rgba(0, 0, 0, 0.6);
 
     img {
       width: 350px;
@@ -845,7 +844,7 @@ section {
 
   .body5 {
     width: 100%;
-    height: 550px;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -920,7 +919,7 @@ section {
     flex-direction: column;
     h3 {
       font-weight: 900;
-      font-size: 45px;
+      font-size: 30px;
       color: #893f64;
       margin-bottom: 30px;
     }
@@ -928,8 +927,8 @@ section {
     p {
       color: #071e2e;
       font-weight: 600;
-      font-size: 25px;
-      width: 450px;
+      font-size: 12px;
+      width: 400px;
       text-align: center;
     }
   }
